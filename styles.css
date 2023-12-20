@@ -1,0 +1,124 @@
+.box_formulario {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_texto {
+    display: flexbox;
+    background-color: #9ca3af;
+    padding: 10px;
+    border: solid 1px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#526791, #91abc9, #d3ddea, #f4f7fa);
+}
+
+
+.box_login {
+    margin: 150px auto;
+    width: 420px;
+    padding: 30px;
+    background: rgba(23, 55, 82, 0.7);
+    border-radius: 8px;
+}
+
+.box_login h1,
+h2 {
+    margin: auto;
+    padding: 20px;
+    font-size: 42px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.box_login .box_element_login label {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.box_login .box_element_login input {
+    width: 100%;
+    padding: 10px 0%;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.box_login .box_element_login input[type="submit"] {
+    color: #526791;
+    border: none;
+    background-color: #d3ddea;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.box_login .box_element_login input[type="button"] {
+    color: #526791;
+    border: none;
+    background-color: #d3ddea;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.box_login .box_element_login input[type="reset"] {
+    color: #526791;
+    border: none;
+    background-color: #d3ddea;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.box_element_login_genre {
+    color: #ffffff;
+    border: none;
+
+}
+
+.icon {
+    font-size: 20px;
+    /* Tamaño del ícono */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+nav {
+    margin: 10px auto;
+    padding: 30px;
+    background: rgba(23, 55, 82, 0.7);
+}
+
+nav input[type="button"] {
+    color: #f4f7fa;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background: #344b77;
+    color: #f4f7fa;
+}
